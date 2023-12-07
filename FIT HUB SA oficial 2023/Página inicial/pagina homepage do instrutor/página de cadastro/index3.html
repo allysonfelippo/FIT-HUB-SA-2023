@@ -29,26 +29,26 @@
             <h2 class="headers">Informações do aluno</h2>
 
             <div id="divNome">
-                <p>Nome:</p>
-                <input id="inpNome" class="inpStyle" type="text">
+                <input required id="inpNome" class="inpStyle" type="text">
+                <label>Nome</label>
             </div>
 
             <div id="divIdade">
-                <p>Idade:</p>
-                <input id="inpIdade" class="inpStyle"  type="number">
+                <input required id="inpIdade" class="StyleIdadeinp"  type="number">
+                <label>Idade</label>
             </div>
 
             <p>Sexo:</p>
             <div id="radioSexo">
-                <input id="radioM" name="radioSexo" type="radio"><label class="radiolbl">Masculino</label>
-                <input id="radioF" name="radioSexo" type="radio"><label class="radiolbl">Feminino</label>
-                <input id="radioO" name="radioSexo" type="radio"><label class="radiolbl">Outro(a)</label>
+                <input id="radioM" name="radioSexo" type="radio" value="Masculino"><label class="radiolbl">Masculino</label>
+                <input id="radioF" name="radioSexo" type="radio" value="Feminino"><label class="radiolbl">Feminino</label>
+                <input id="radioO" name="radioSexo" type="radio" value="Outro(a)"><label class="radiolbl">Outro(a)</label>
             </div>
 
             <p>Objetivo:</p>
             <div id="radioObjetivo">
-                <input id="radioH" name="radioObjetivo" type="radio"><label class="radiolbl">Hipertrofia</label>
-                <input id="radioE" name="radioObjetivo" type="radio"><label class="radiolbl">Emagrecimento</label>
+                <input id="radioH" name="radioObjetivo" type="radio" value="Hipertrofia"><label class="radiolbl">Hipertrofia</label>
+                <input id="radioE" name="radioObjetivo" type="radio" value="Emagrecimento"><label class="radiolbl">Emagrecimento</label>
             </div>
         </section>
 
@@ -56,30 +56,32 @@
             <h2 class="headers">Cadastre um e-mail e senha</h2>
 
             <div id="divEmail">
-                <p>E-mail:</p>
-                <input id="inpEmail" class="inpStyle" type="email">
+                <input required id="inpEmail" class="inpStyle" type="email">
+                <label>E-mail</label>
             </div>
 
             <div id="divSenha">
-                <p>Senha:</p>
-                <input id="inpSenha" class="inpStyle" type="password">
+                <input required id="inpSenha" class="inpStyle" type="password">
+                <label>Senha</label>
             </div>
 
             <div id="btnsCadastro">
 
                 <div id="voltar">
-                    <button id="botão-voltar"><a href="C:\Users\luudo\OneDrive\Área de Trabalho\FIT HUB SA ofical\Página inicial\pagina homepage do instrutor\index2.html"> ← Voltar</a></button>
+                    <button id="btn-voltar"><a href="index2.html"> ← Voltar</a></button>
                 </div>
 
-                <button id="btn-Principal">Cadastrar</button>
+                <button id="btn-Principal" onclick="RealizaCadastro()">Cadastrar</button>
+
+                <p id="AvisoErroDados" class="msgcadastro"></p>
             </div>
         </section>
 
         <div id="tema">
 
         </div>
-        <script src="script.js"></script>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
