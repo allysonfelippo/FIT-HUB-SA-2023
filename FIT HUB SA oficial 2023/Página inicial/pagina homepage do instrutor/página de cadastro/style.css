@@ -37,6 +37,10 @@ h1{
     
 }
 
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .headers{
     font-style: Chivo;
     color:#00072D;
@@ -103,7 +107,7 @@ main{
 #btnsCadastro{
     margin-top: 80px;
     gap: 10px; 
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -114,6 +118,7 @@ main{
     height: 45px;
     width: 120px;
     font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 12px;
     background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
     color: #fff;
@@ -148,13 +153,152 @@ p{
     opacity: 0.9;
     filter: alpha(opacity=90);
 }
+
+.msgcadastro{
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+
+}
+
 .radiolbl{
     font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     opacity: 0.9;
     filter: alpha(opacity=90);
 }
+
 #divNome{
+    width: 100%;
+   margin-top: 30px;
+   position: relative;
+}
+#divNome label{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150,150,150);
+    cursor: text;
+    transition: 0.2s ease-in-out;
+}
+#divNome .inpStyle:focus,
+#divNome .inpStyle:valid{
+    border-bottom: 2.5px solid #001C55;
+}
+#divNome .inpStyle:focus ~ label,
+#divNome .inpStyle:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color:  #000000;
+}
+#divIdade{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+#divIdade label{
+    font-size: 20px;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150,150,150);
+    cursor: text;
+    transition: 0.2s ease-in-out;
+}
+#divIdade .StyleIdadeinp:focus,
+#divIdade .StyleIdadeinp:valid{
+    border-bottom: 2.5px solid  #001C55;
+}
+#divIdade .StyleIdadeinp:focus ~ label,
+#divIdade .StyleIdadeinp:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color:  #001C55;
+}
+.StyleIdadeinp{
+    width: 20%;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-bottom: 2.5px solid #130024;
+    background-color: transparent;
+    outline: 0;
+    font-size: 20px;
+}
+#divEmail{
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+#divEmail label{
+    font-size: 20px;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150,150,150);
+    cursor: text;
+    transition: 0.2s ease-in-out;
+}
+#divEmail .inpStyle:focus,
+#divEmail .inpStyle:valid{
+    border-bottom: 2.5px solid  #001C55;
+}
+#divEmail .inpStyle:focus ~ label,
+#divEmail .inpStyle:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #000000;
+}
+#divSenha{
+   width: 100%;
+   margin-top: 20px;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   
+}
+#divSenha label{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    color: rgb(150,150,150);
+    cursor: text;
+    transition: 0.2s ease-in-out;
+}
+#divSenha .inpStyle:focus,
+#divSenha .inpStyle:valid{
+    border-bottom: 2.5px solid  #001C55;
+}
+#divSenha .inpStyle:focus ~ label,
+#divSenha .inpStyle:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #000000;
+}
+.inpStyle{
+    width: 70%;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-bottom: 2.5px solid #130024;
+    background-color: transparent;
+    outline: 0;
+    font-size: 20px;
+
+}
+.inpStyle:focus{
+    border-bottom: 2.5px solid  #001C55;
+}
+/* #divNome{
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -192,8 +336,8 @@ p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     opacity: 0.9;
     filter: alpha(opacity=90);
-}
-.inpStyle{
+} */
+/* .inpStyle{
     height: 20px;
     width: 200px;
     margin-left: 10px;
@@ -212,11 +356,21 @@ p{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 
-}
+} */
 #tema{
     width: 50%;
 }
 
-#inpIDade{
-    width: 36px;
+a{
+    color: #000000;
+    border: none;
+    text-decoration: none;
+
+   
+}
+
+#btn-voltar{
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
 }
