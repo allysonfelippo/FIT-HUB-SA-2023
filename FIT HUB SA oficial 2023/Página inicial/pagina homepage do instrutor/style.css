@@ -101,6 +101,17 @@ h2{
     
 }
 
+#divListagemALunos{
+    border: 1px solid greenyellow;
+    display: none;
+    flex-direction: column;
+}
+
+.Dados-aluno-lista{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 #div-btns-lista{
     height: 20%;
     width: 100%;
