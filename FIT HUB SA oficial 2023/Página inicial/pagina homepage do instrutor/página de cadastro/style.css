@@ -1,0 +1,222 @@
+/* *{
+    border: 1px solid rgb(47, 255, 0);
+} */
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    size: 80%;
+}
+header{
+    height: 18%;
+    width: 100%;
+    background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
+    color: #fff;
+    display: flex;
+    border-radius: 0% 0% 0% 8% ;
+
+}
+#NomeLogo{
+    width: 50%;
+    display: flex;
+    margin: 0;
+}
+h1{
+    /* margin-left: 45px;
+    margin-top: 20px; */
+    margin: 0;
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* border: 2px solid white; */
+    padding-left: 20px;
+    
+}
+
+.headers{
+    font-style: Chivo;
+    color:#00072D;
+    
+}
+#Logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding-top: 5px;
+}
+nav{
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 5px;
+}
+#menu{
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:row;
+    gap: 7px;
+}
+#Arte{
+    width: 50%;
+}
+main{
+    height: 82%;
+    width: 100%;
+    background-color: #f2fbff;
+    display: flex;
+}
+#InfoAluno{
+   width: 25%;
+   padding-left: 24px;
+   padding-right: 24px;
+   display: flex;
+   flex-direction: column;
+
+
+}
+#CadAluno{
+    width: 25%;
+    padding-left: 24px;
+    padding-right: 24px;
+
+}
+#radioSexo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+#radioObjetivo{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+#btnsCadastro{
+    margin-top: 80px;
+    gap: 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+#btn-Principal{
+
+    height: 45px;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 12px;
+    background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    padding: 0;
+    border: none;
+}
+/* #btn-Principal:hover{
+    background:  #f0e1f9;
+    color: #10002B;
+} */
+#btnVoltar{
+    height: 30px;
+    width: 60px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    padding: 0;
+    border: none;
+
+}
+p{
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.radiolbl{
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+#divNome{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+#divIdade{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+
+}
+#divEmail{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+#divSenha{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.inpStyle{
+    height: 20px;
+    width: 200px;
+    margin-left: 10px;
+    padding: 0;
+    border: none;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    background: #00072D;
+    text-align: center;
+    text-shadow: #000000;
+    color: #00072D;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000000;
+    outline: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+}
+#tema{
+    width: 50%;
+}
+
+#inpIDade{
+    width: 36px;
+}

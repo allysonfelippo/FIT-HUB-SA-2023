@@ -1,0 +1,157 @@
+/* *{
+    border: 1px solid greenyellow;
+} */
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* font-size: 80%; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    
+    
+}
+
+#container {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+#topo {
+    height: 18%;
+    width: 100%;
+    background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    border-radius: 0% 0% 0% 8% ;
+}
+
+#NomeLogo{
+    width: 50%;
+    display: flex;
+    margin: 0;
+}
+
+#Logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding-top: 5px;
+}
+
+h1{
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding-left: 20px;
+}
+
+
+#meio{
+    height: 82%;
+    border-radius: 12px 12px 12px 12px ;
+    background : linear-gradient( #ffffff,#ffffff);
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+#selectdepagina{
+    height: 80%;
+    width: 60%;
+    background: radial-gradient(rgb(117, 56, 179),#ffffff);
+    color: #fff;
+    font-size: 23px;
+    margin-top: 23px;
+    margin-bottom: 20px;
+    border-radius: 12px 12px 12px 12px ;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    -webkit-box-shadow:0px 0px 20px 10px #001C55 ;
+    -moz-box-shadow:0px 0px 20px 10px #0A2472 ;
+    box-shadow:0px 0px 20px 10px rgba(0, 0, 0, 0.534) ;
+    
+}
+
+.diasemana{
+   height: 20%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background : linear-gradient(to left, #001C55,#00072D);
+  
+
+}
+
+#nomedodia{
+    height: 50px;
+    width: 150px;
+   background-color: #0A2472;
+   text-align: center; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   -webkit-box-shadow:0px 0px 20px 10px #001C55 ;
+   -moz-box-shadow:0px 0px 20px 10px #0A2472 ;
+   box-shadow:0px 0px 20px 10px rgba(0, 0, 0, 0.534) ;
+   
+   
+}
+
+select{
+    height: 40px;
+    width: 130px;
+    font-size: 25px;
+    text-align: center;
+    -webkit-box-shadow:0px 0px 20px 10px #001C55 ;
+    -moz-box-shadow:0px 0px 20px 10px #0A2472 ;
+    box-shadow:0px 0px 20px 10px rgba(0, 0, 0, 0.534) ;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    padding: 0;
+    border: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.botaoCTa{
+    width: 110px;
+    height: 35px;
+     margin: 5px;
+     margin-top: 22px;
+     border-radius: 12px 12px 12px 12px ;
+     background: #001C55;
+     padding: 0;
+     border: none;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     text-size-adjust: calc();
+
+    
+   
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.botaoCT{
+    background: #001C55;
+    padding: 0;
+    border: none;
+    height: 7%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+

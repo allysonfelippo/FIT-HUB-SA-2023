@@ -1,0 +1,141 @@
+/* *{
+    border: 1px solid greenyellow;
+} */
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    size: 80%;
+}
+header{
+    height: 18%;
+    width: 100%;
+    background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
+    color: #fff;
+    display: flex;
+     border-radius: 0% 0% 0% 8% ;
+}
+
+h1{
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding-left: 20px; 
+}
+#Logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding-top: 5px;
+}
+#NomeLogo{
+    width: 50%;
+    display: flex;
+}
+#Arte{
+    width: 50%;
+}
+#menu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 7px;
+}
+main{
+    height: 82%;
+    background : linear-gradient( #ffffff,#ffffff);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+    /* transition: all 3s ease; */
+    
+}
+
+.botaomainpage{
+    height:90px;
+    width: 200px;
+    font-size: 30px;
+    background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+    /* transition: all 3s ease;  */
+    margin-bottom: 50px;
+    
+    
+}
+/* .botaomainpage:hover{
+    background: #f0d5ff;
+    padding: 0;
+    border: none;
+    margin-bottom: 10px;
+   
+} */
+/* #divHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} */
+
+#meio-direito{
+    height: 100%;
+    width: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+
+#meio-esquerdo{
+    height: 100%;
+    width: 50%;
+    
+}
+
+#h1paginainicial{
+    text-align: center;
+    font-size: xx-large;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #001C55;
+    
+}
+
+
+#ppaginainicial{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: inherit;
+}
+
+#mulhersaudavel{
+
+    height: 329px;
+    width: 570px;
+    margin-left: 20px;
+    border-radius: 7px;
+}

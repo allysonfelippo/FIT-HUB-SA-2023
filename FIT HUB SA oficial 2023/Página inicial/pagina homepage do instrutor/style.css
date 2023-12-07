@@ -1,0 +1,141 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+
+    height: 100%;
+}
+
+#topo {
+    height: 18%;
+    background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    border-radius: 0% 0% 0% 8% ;
+}
+
+#NomeLogo{
+    width: 50%;
+    display: flex;
+    margin: 0;
+}
+
+#Logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    padding-top: 5px;
+}
+
+h1{
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding-left: 20px;
+}
+
+#meio {
+    height: 82%;
+    background-color: 0E6BA8;
+    display: flex;
+}
+
+#meio-esquerda {
+    width: 60%;
+    height: 100%;
+    background : linear-gradient( #ffffff,#ffffff);
+    flex-direction: column;
+}
+
+#meio-direito {
+    width: 40%;
+    height: 100%;
+    background : linear-gradient( #ffffff,#ffffff);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#lista{
+    height: 80%;
+    width: 80%;
+    margin-left: 15px;
+    border-radius: 9px;
+    align-items: center;
+    background-color: #001C55;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #0E6BA8;
+    text-align: left;
+    opacity: 0.6;
+    filter: alpha(opacity=90);
+    padding: 0;
+    border: none;
+    
+    
+}
+
+#header{
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+#h2hmecadastro{
+    color:#10002B;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:30px;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    
+}
+
+#botaoPageinstrutor{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.botaopi{
+    height: 50px;
+    width: 170px;
+    font-size: 17px;
+    
+    border-radius: 20px;
+    margin-bottom: 17px;
+    margin-left: 15px;
+   filter: alpha(opacity=90);
+   background: linear-gradient(0.25turn, #0A2472, #001C55, #00072D);
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    padding: 0;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#h1paginainicial{
+    text-align: center;
+}
